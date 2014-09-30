@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>J586 Project02</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Avery Thomas">
+
+    <!-- Style Sheets-->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link href="bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="slider/flexslider.css" type="text/css">
+    <link rel="stylesheet" type="text/css" media="screen" href="iPicture/css/smoothness/jquery-ui-1.8.16.custom.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="iPicture/css/jQuery.iPicture.css"/>
+    
+    <!-- Java Script-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script src="slider/jquery.flexslider.js"></script>
+    <script type="text/javascript" src="iPicture/js/jQuery.iPicture.js"></script>
+    <script type="text/javascript" charset="utf-8">
+        $(window).load(function() {
+        $('.flexslider').flexslider();
+       
+        
+        $( "#iPicture" ).iPicture({
+        pictures: ["picture05","picture06","picture07"],
+        initialize:true
+        })
+        });
+</script>
+
+  </head>
+
+<!-- SLIDER -->
+<div class="container" style="width: 65%; margin: auto; margin-top: 100px;">
+<div class="row">
+<div class="col-md-12"> 
+<div class="flexslider">
+  <ul class="slides">
+    <li>
+      <img src="slides/Slide_01.gif" />
+    </li>
+    <li>
+      <div class="slide-02">
+      <div class="col-xs-12" style="position: absolute; z-index: 1;">
+      <img src="slides/Slide_02.gif" />
+      </div>
+      <div style="position: relative; float: right; z-index: 10; width: 50%; height: 50%;">
+      <p>Americans spend an average of <b>1,597 hours</b> per year watching television.<br /><br />But the way they consume television has changed drastically in recent years.</p>
+      </div>
+      </div>
+    </li>
+    <li>
+      <div class="slide-03">
+      <div class="col-xs-12" style="position: absolute; z-index: 1;">
+      <img src="slides/Slide_03.gif" />
+      </div>
+      <div style="position: relative; float: left; z-index:10;">
+        <p>Since 2009, online television consumption has increased from 44 million users to <b>95 million in 2014</b>, with a projcted 99.2 million in 2015. Meanwhile, viewers of primetime television has decreased.</p></div>
+      </div>
+    </li>
+    <li>
+      <div class="slide-04">
+      <div class="col-xs-12" style="position: absolute; z-index: 1;">
+      <img src="slides/Slide_04.jpg" />
+      </div>
+      <div style="position: relative; float: left; z-index:10;">
+        <p>Netflix and Hulu are the primary sources of paid online television consumption. However, other sources are quickly gaining popularity like Crackle and Amazon Prime for example.</p>
+      </div>
+      </div>
+    </li>
+    <li>
+      <div class="slide-05">
+      <div class="col-xs-12" style="position: absolute; z-index: 1;">
+      <img id="picture05" src="slides/Slide_05.gif" />
+      </div>
+      <div style="position: relative; float: left; z-index:10;">
+      <p>While, online streaming service usage has increased in recent years, their revenue is still pretty far behind the other major media groups. This is likely due to their high volume of assets.<br /><br />Scroll over the corporation to see a breif list of their assets.</p>
+      </div>
+      </div>
+    </li>
+    <li>
+      <div class="slide-06">
+      <div class="col-xs-12" style="position: absolute; z-index: 1;">
+      <img id="picture06" src="slides/Slide_06.gif" />
+      </div>
+      <div style="position: relative; float: left; z-index:10;">
+      <p>Online streaming services have even started producing their own content, which competed very well at the 2014 Primetime Emmy Awards, receiving 7% of the nominations.<br /><br />Scroll over the graph to see what channels belong in which category.</p>
+      </div>
+    </li>
+     <li>
+      <div class="slide-07">
+      <div class="col-xs-12" style="position: absolute; z-index: 1;">
+      <img id="picture07" src="slides/Slide_07.gif" />
+      </div>
+      <div style="position: relative; float: right; z-index: 10; width: 30%; height: 70%;">
+      <p>In addition to the popularity of paid online streaming services, people frequently pirate shows for streaming. <br /><br />Scroll over the titles on the list to see a photo.</p>
+      </div>
+      </div>
+    </li>
+     <li>
+      <div class="slide-08">
+      <div class="col-xs-12" style="position: absolute; z-index: 1;">
+      <img src="slides/Slide_08.jpg" />
+      </div>
+      <div style="position: relative; float: left; z-index:10;">
+      <p>Online streaming services has drastically changed the way that Americans consume their favorite television shows. It has created the trend of binge watching and the luxury of watching shows without the standard commercial break.<br /><br />As technology continues to develop, these services will continue to change and evolve.<br /><br />But only time will tell where television will go from here!</p>
+      </div>
+      </div>
+     </li>
+    <li>
+      <div class="col-xs-12" style="position: relative;">
+      <iframe src="newsquiz-master/demo/index-basic.html" style="width: 100%; height: 100%;"></iframe>
+      </div>
+    </li>
+  </ul>
+</div>
+</div>
+</div>
+</div>
+<div>
+  
+  
+<div class="container" style="width: 65%; margin: auto; margin-top: 20px;">
+<div class="row">
+<div class="col-md-12">
+  <h6>Sources</h6>
+  <p>Graphics: <a href="www.averyethomas.com">Avery Thomas</a><br />Information: Statista on TV Industry & Wikipedia</p>
+  
+  <!-- Placed at the end of the document so the pages load faster -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    
+    
+
+  </body>
+</html>
